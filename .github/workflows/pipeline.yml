@@ -20,7 +20,8 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install streamlit pandas scikit-learn joblib numpy -r requirements.txt
+        pip install streamlit pandas scikit-learn joblib numpy 
+        pip install -r requirements.txt
 
     - name: Run Basic Check
       run: |
